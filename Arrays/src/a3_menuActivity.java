@@ -1,5 +1,5 @@
 import java.util.*;
-public class a12_menuActivity {
+public class a3_menuActivity {
     public static int search(String arr[], String key){
 
         for(int i=0; i<arr.length; i++){
