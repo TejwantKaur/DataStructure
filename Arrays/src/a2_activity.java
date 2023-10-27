@@ -1,4 +1,4 @@
-public class a11_activity {
+public class a2_activity {
 
     public static int find(String arr[], String key){
 
