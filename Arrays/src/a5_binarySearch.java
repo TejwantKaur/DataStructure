@@ -22,12 +22,20 @@ public class a5_binarySearch {
     public static void main(String[] args) {
         int[] sortedArr = {1,4,6,8,12,14,16,24,35};
         int key = 8;
+        int key2 = -8;
 
         int idx=binarySearch(sortedArr,key);
         if(idx == -1){
             System.out.println("Not Found");
         }else{
             System.out.println("Idx of key:"+key+ " is "+idx);
+        }
+
+        int idx2=binarySearch(sortedArr,key2);
+        if(idx2 == -1){
+            System.out.println("Not Found");
+        }else{
+            System.out.println("Idx of key:"+key+ " is "+idx2);
         }
 
     }
