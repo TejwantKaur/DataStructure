@@ -21,7 +21,7 @@ public class a4_largestNumber {
     }
     public static void main(String[] args) {
         int[] arr = {3,6,8,12,89,13,4,1};
-        System.out.println(findLargest(arr));
-        System.out.println(findSmallest(arr));
+        System.out.println("Largest value is: "+ findLargest(arr));
+        System.out.println("Smallest value is: "+ findSmallest(arr));
     }
 }
