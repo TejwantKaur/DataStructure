@@ -1,4 +1,4 @@
-public class stringCompression {
+public class a5_stringCompression {
 
     public static String compress(String str){
         StringBuilder sb = new StringBuilder("");

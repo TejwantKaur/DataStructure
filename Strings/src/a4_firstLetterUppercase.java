@@ -1,4 +1,4 @@
-public class firstLetterUppercase {
+public class a4_firstLetterUppercase {
     public static String toUp(String str){
         StringBuilder sb = new StringBuilder("");
 
