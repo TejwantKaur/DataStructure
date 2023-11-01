@@ -5,7 +5,8 @@ public class a5_binarySearch {
         int start=0, end=arr.length-1;
 
         while(start<=end){
-            int midIdx = (start+end)/2;
+//            int midIdx = (start+end)/2;
+            int midIdx = start + (end-start)/2;
 
             if(arr[midIdx] == key){
                 return midIdx;
